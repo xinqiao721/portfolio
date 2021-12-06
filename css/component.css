@@ -354,7 +354,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background: linear-gradient(90deg, rgba(190,173,56,1) 0%, rgba(177,58,133,1) 100%);
     transition: all 0.3s;
 }
 .quote .wow > p:hover > a:after{
@@ -370,7 +370,12 @@
     line-height: 14px;
   }
 }
+.seemore{
+  background: linear-gradient(90deg, rgba(190,173,56,1) 0%, rgba(177,58,133,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
+}
 /*-------------------------*/
 /* $Skill
 ---------------------------*/
@@ -400,6 +405,18 @@
 .imgbox__inner-4-3{
     padding-top: calc(100% * 3 / 4);
 }
+.imgbox__inner-9-34{
+    padding-top: calc(100% * 34 / 9);
+}
+.imgbox__inner-1-24{
+    padding-top: calc(100% * 41 / 17);
+}
+.imgbox__inner-13-6{
+  padding-top: calc(100% * 7 / 12);
+}
+.imgbox__inner-20-59{
+  padding-top: calc(100% * 59 / 20);
+}
 .imgbox__inner .images{
     position: absolute;
     top: 0;
@@ -414,7 +431,6 @@
     display: block;
     margin: 24px 0;
 }
-
 /*-------------------------*/
 /* $About
 ---------------------------*/
@@ -605,7 +621,7 @@
 .contact-inner a:hover{
     opacity: 0.3;
 }
-@media (max-width: 800px){
+@media (max-width: 834px){
     .contacts-mail{
         border-bottom: 3px solid #000;
     }
