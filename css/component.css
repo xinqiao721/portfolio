@@ -593,6 +593,10 @@
     height: 245px;
   }
 }
+.right{
+  float: right;
+  text-align: right;
+}
 /*-------------------------*/
 /* $Contact
 ---------------------------*/
